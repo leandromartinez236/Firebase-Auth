@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <div className='bg-purple-400 h-20 py-4 px-12'>
       <div className='flex justify-between items-center'>
-        <h1 className='font-bold text-3xl' >FirebaseAuth</h1>
+        <Link to='/'>
+          <h1 className='font-bold text-3xl'>FirebaseAuth</h1>
+        </Link>
         <div>
           <ul className='flex gap-4'>
             <Link to='/sigin'>
