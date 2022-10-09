@@ -1,9 +1,8 @@
-export const sigInFields = [
-  { name: 'Name', placeholder: 'name', type: 'text' },
+export const registerFields = [
   { name: 'Email', placeholder: 'email', type: 'text' },
   { name: 'Password', placeholder: '*********', type: 'password' },
 ]
-export const signUpFields = [
+export const loginFields = [
   { name: 'Email', placeholder: 'email', type: 'text' },
   { name: 'Password', placeholder: '*********', type: 'password' },
 ]
