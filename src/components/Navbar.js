@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -7,8 +8,12 @@ const Navbar = () => {
         <h1 className='font-bold text-3xl' >FirebaseAuth</h1>
         <div>
           <ul className='flex gap-4'>
-            <li className='font-bold'>Sign In</li>
-            <li className='font-bold'>Sign Up</li>
+            <Link to='/sigin'>
+              <li className='font-bold'>Sign In</li>
+            </Link>
+            <Link to='/signup'>
+              <li className='font-bold'>Sign Up</li>
+            </Link>
           </ul>
         </div>
       </div>

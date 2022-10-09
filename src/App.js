@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import StackRoutes from './routes/StackRoutes';
 
 const App = () => {
   return (
     <div className="h-screen">
-      <Navbar />
+      <StackRoutes />
     </div>
   );
 }
